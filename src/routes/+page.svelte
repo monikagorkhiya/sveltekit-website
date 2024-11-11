@@ -45,8 +45,8 @@
 			</div>
 			<div class="py-3 lg:col-span-3 lg:-mr-44">
 				<img
-					src="/images/hero-screenshot.HaV5_ts2_10u77m.png"
-					srcset="/images/hero-screenshot.HaV5_ts2_ZSMuoP.png 240w, /images/hero-screenshot.HaV5_ts2_2fuB1b.png 540w, /images/hero-screenshot.HaV5_ts2_ZMCIo6.png 720w, /images/hero-screenshot.HaV5_ts2_10u77m.png 1183w"
+					src="images/hero-screenshot.HaV5_ts2_10u77m.png"
+					srcset="images/hero-screenshot.HaV5_ts2_ZSMuoP.png 240w, images/hero-screenshot.HaV5_ts2_2fuB1b.png 540w, images/hero-screenshot.HaV5_ts2_ZMCIo6.png 720w, images/hero-screenshot.HaV5_ts2_10u77m.png 1183w"
 					alt="Astronaut in the air"
 					sizes="(max-width: 1024px) 100vw, 50vw"
 					loading="eager"
@@ -248,7 +248,7 @@
 		<div class="grid place-items-center">
 			<!-- svelte-ignore a11y_img_redundant_alt -->
 			<img
-				src="/images/6.Ep0jo6kx_Z2s10bH.png"
+				src="images/6.Ep0jo6kx_Z2s10bH.png"
 				alt="Feature Image"
 				loading="lazy"
 				width="730"
@@ -345,7 +345,7 @@
 		<div class="grid place-items-center pb-10 md:order-2 md:pb-0">
 			<!-- svelte-ignore a11y_img_redundant_alt -->
 			<img
-				src="/images/2.ldT67BXv_ZgktxF.png"
+				src="images/2.ldT67BXv_ZgktxF.png"
 				alt="Feature Image"
 				loading="lazy"
 				width="1280"
@@ -463,7 +463,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/photo-1624298357597-fd92dfbec01d_Z9mHXD.png"
+							src="images/photo-1624298357597-fd92dfbec01d_Z9mHXD.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="John Doe"
 							loading="lazy"
@@ -489,7 +489,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1607746882042-944635dfe10e_9mPL0.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -517,7 +517,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1639149888905-fb39731f2e6c_Z28s6qs.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -545,7 +545,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
+							src="images/photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Emily Brown"
@@ -572,7 +572,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1601455763557-db1bea8a9a5a_2gmhW0.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -600,7 +600,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1544725176-7c40e5a71c5e_17087H.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -633,7 +633,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1624298357597-fd92dfbec01d_Z9mHXD.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -661,7 +661,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1607746882042-944635dfe10e_9mPL0.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -689,7 +689,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1639149888905-fb39731f2e6c_Z28s6qs.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -717,7 +717,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -745,7 +745,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1601455763557-db1bea8a9a5a_2gmhW0.png"
 
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
@@ -773,7 +773,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="/images/
+							src="images/
 								photo-1544725176-7c40e5a71c5e_17087H.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Sarah Martinez"
@@ -811,7 +811,7 @@
 
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
-					src="/images/
+					src="images/
 						2.ldT67BXv_ZgktxF.png"
 					alt="Fea</picture>ture image"
 					class="h-full w-full object-contain"
@@ -844,7 +844,7 @@
 
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
-					src="/images/
+					src="images/
 						2.ldT67BXv_ZgktxF.png"
 					alt="Feature image"
 					class="h-full w-full object-contain"
@@ -879,7 +879,7 @@
 
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
-					src="/images/
+					src="images/
 						3.XiLsQFjx_Z1hzmJI.png"
 					alt="Feature image"
 					class="h-full w-full object-contain"
@@ -909,7 +909,7 @@
 
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
-					src="/images/
+					src="images/
 						2.ldT67BXv_ZgktxF.png"
 					alt="Feature image"
 					class="h-full w-full object-contain"
@@ -938,7 +938,7 @@
 				<div class="absolute inset-0 z-10 bg-gradient-to-t from-gray-50 via-transparent"></div>
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
-					src="/images/
+					src="images/
 					integrations.HhfHOMQB.svg"
 					alt="Feature image"
 					class="h-full w-full object-contain"
