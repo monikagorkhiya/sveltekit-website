@@ -4,10 +4,9 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
   kit: {
     adapter: adapter(),
-    paths: {
-        base: process.env.NODE_ENV === "production" ? "/sveltekit-website" : "",
-    }
-
+    // paths: {
+    //     base: process.env.NODE_ENV === "production" ? "/sveltekit-website" : "",
+    // }
   },
   preprocess: vitePreprocess()
 };
