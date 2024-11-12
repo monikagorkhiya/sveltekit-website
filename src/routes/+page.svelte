@@ -1,8 +1,243 @@
-<script>
-	// export let data;
+<div class="overflow-x-clip main-banner-area">
+	<div class="section-team-hero build-in-animate relative overflow-hidden pt-5">
+		<div class="relative z-10 md:absolute md:bottom-0 md:left-0 md:right-0 md:top-0">
+			<div class="container-lg p-responsive">
+				<div class="mx-auto my-5 px-5 pt-[15%] text-center md:w-2/3 lg:w-5/6 xl:w-full">
+					<main class="relative place-items-center">
+						<!-- <div class="ds-banner-shape-3">
 
-	// let baseUrl = data.baseUrl;
-</script>
+							<img src="images/shape3.png" alt="imag1"/>
+						</div>
+
+						<div class="shape5"><img src="images/shape5.png" alt="image2"/></div> -->
+						<div
+							class="bg-gradient-radial from-blues-200 absolute right-0 top-0 -z-10 h-96 w-96 blur-2xl"
+						></div>
+						<div
+							class="bg-gradient-radial absolute right-36 top-10 -z-10 h-96 w-96 from-green-200 blur-2xl"
+						></div>
+
+						<h2
+							class="
+
+							text-center  !leading-[1.30] text-3xl font-bold [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter "
+						>
+							Empowering Developers,<br /><span class="text-theme">Accelerating Delivery</span>
+						</h2>
+
+						<p class="mx-auto pt-5 mb-4 text-xl text-slate-600 sm:w-10/12 md:w-2/3 lg:w-7/12 xl:w-2/3">
+							Boost developer efficiency with platform engineering, delivering scalable internal
+							developer platforms across cloud-native, hybrid, and multicloud architectures.
+						</p>
+
+						<div class="mt-10 flex flex-col gap-3 sm:flex-row sm:justify-center">
+							<a
+								href="/"
+								target="_blank"
+								rel="noopener"
+								class="focus-visible:shadow-outline-theme bg-grd-primary-600 hover:bg-theme-dark focus-visible:ring-theme flex items-center justify-center gap-1 rounded-full px-7 py-2.5 text-center text-white transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:self-center"
+							>
+								Contact Us
+							</a>
+
+							<a
+								href="/"
+								rel="noopener"
+								target="_blank"
+								class="focus-visible:shadow-outline-theme gradient-button hover:bg-theme-light focus-visible:ring-theme ml-2 flex items-center justify-center gap-1 rounded-full border-2 px-7 py-2.5 text-center transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+							>
+								Book a Demo
+							</a>
+						</div>
+					</main>
+				</div>
+			</div>
+		</div>
+
+		<div class="team-hero-artwork absolute top-0 hidden md:relative md:block">
+			<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				version="1.1"
+				id="Layer_1"
+				x="0px"
+				y="0px"
+				width="2596px"
+				height="946.6px"
+				viewBox="0 0 2596 946.6"
+				style="enable-background:new 0 0 2596 946.6;height:auto; fill:none; stroke:#24292e; stroke-width:3px; opacity:0.1; left:50%; transform: translateX(-50%);"
+				xml:space="preserve"
+				class="team-hero-branches relative block"
+			>
+				<path
+					id="path1"
+					d="M723.5,731.5c-34.2,0-81.2-7.8-81.2-83.7c0-119.6,0-209,0-328.6c0-40-23-76.9-76.9-76.9  c-24.5,0-470.2,0-565.4,0"
+				></path>
+				<path id="path2" d="M1952.3,523.4c2.8-19.8,7.8-59.3,50.2-59.3H2596"></path>
+				<path id="path3" d="M1873.8,0.3v239.6c0,0-0.8,70.2,79,70.2"></path>
+				<path id="path4" d="M2596,844.5h-763.4c0,0-70.2,0.7-70.2-72.2"></path>
+				<path
+					id="path5"
+					d="M1953.8,238.1c-1,10.3-1.4,23.1-1.4,39c0,58.9,0,352.7,0,411.6c0,75.9-85.2,83.7-118.1,83.7  c-134.5,0-335.3,0-469.8,0c-52.1,0-66.8,45.6-66.8,83.5v90.8"
+				></path>
+				<path id="path6" d="M2054.3,1.5c0,76.1,0,49.3,0,108.2c0,60.3-100.5,45.5-100.5,128.3"></path>
+				<path
+					id="path7"
+					d="M0,605.2c0,0,343.5,0,438.9,0S509,731.5,616.2,731.5s472.1,0,612.1,0c54.2,0,69.5,55.7,69.5,93.5v121.4"
+				></path>
+				<path id="path8" d="M578.1,243c-32-5-67.7-8.5-67.7-84.4c0-58.9,0-82.5,0-158.6"></path>
+
+				<circle
+					class="circle-dot"
+					id="dot1"
+					cx="0"
+					cy="0"
+					r="5"
+					fill="#00c16a"
+					filter="url(#ellipse-shadow)"
+				>
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path1" />
+					</animateMotion>
+				</circle>
+				<circle
+					class="circle-dot"
+					id="dot2"
+					cx="0"
+					cy="0"
+					r="5"
+					fill="#00c16a"
+					filter="url(#shadow)"
+				>
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path2" />
+					</animateMotion>
+				</circle>
+				<circle
+					class="circle-dot"
+					id="dot3"
+					cx="0"
+					cy="0"
+					r="5"
+					fill="#00c16a"
+					filter="url(#shadow)"
+				>
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path3" />
+					</animateMotion>
+				</circle>
+				<circle
+					class="circle-dot"
+					id="dot4"
+					cx="0"
+					cy="0"
+					r="5"
+					fill="#00c16a"
+					filter="url(#shadow)"
+				>
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path4" />
+					</animateMotion>
+				</circle>
+				<circle class="circle-dot" id="dot5" cx="0" cy="0" r="5" fill="#00c16a">
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path5" />
+					</animateMotion>
+				</circle>
+				<circle class="circle-dot" id="dot6" cx="0" cy="0" r="5" fill="#00c16a">
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path6" />
+					</animateMotion>
+				</circle>
+				<circle class="circle-dot" id="dot7" cx="0" cy="0" r="5" fill="#00c16a">
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path7" />
+					</animateMotion>
+				</circle>
+				<circle class="circle-dot" id="dot8" cx="0" cy="0" r="5" fill="#00c16a">
+					<animateMotion repeatCount="indefinite" dur="5s">
+						<mpath href="#path8" />
+					</animateMotion>
+				</circle>
+			</svg>
+
+			<div class="absolute inset-0">
+				<picture>
+					<img
+						src="images/python.png"
+						width="100"
+						height="100"
+						alt="Avatar of the user califa"
+						class="team-avatar team-avatar--lg icon rounded-full shadow-md"
+						style="top: 3%; left: 4.25%;"
+					/>
+				</picture>
+				<picture>
+					<img
+						src="images/python.png"
+						width="100"
+						height="100"
+						alt="Avatar of the user ohjoycelau"
+						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						style="top: 6%; left: 83.5%;"
+					/>
+				</picture>
+				<picture>
+					<img
+						src="images/python.png"
+						width="100"
+						height="100"
+						alt="Avatar of the user lerebear"
+						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						style="top: 35%; left: 12%;"
+					/>
+				</picture>
+				<picture>
+					<img
+						src="images/kubernetes.png"
+						width="200"
+						height="200"
+						alt="kubernetes"
+						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						style="top: 44%; right: 1%;"
+					/>
+				</picture>
+
+				<picture>
+					<img
+						src="images/kubernetes.png"
+						width="100"
+						height="100"
+						alt="kubernetes"
+						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						style="top: 71%; left: 8%;"
+					/>
+				</picture>
+				<picture>
+					<img
+						src="images/kubernetes.png"
+						width="100"
+						height="100"
+						alt="kubernetes"
+						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						style="top: 84%; left: 50%;"
+					/>
+				</picture>
+				<picture>
+					<img
+						src="images/kubernetes.png"
+						width="100"
+						height="100"
+						alt="Avatar of the user benbalter"
+						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						style="top: 86%; left: 84%;"
+					/>
+				</picture>
+			</div>
+		</div>
+	</div>
+</div>
 
 <div class="overflow-x-clip">
 	<div class="mx-auto max-w-screen-xl px-5">
@@ -17,12 +252,12 @@
 				<h1
 					class="text-center text-3xl font-bold [text-wrap:balance] lg:text-start lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
 				>
-				Empowering Developers
+				Leading IT company
 				</h1>
 				<p
 					class="mt-4 max-w-lg text-center text-lg text-slate-600 [text-wrap:balance] lg:text-start"
 				>
-				Boost developer efficiency with platform engineering, delivering scalable internal developer platforms across cloud-native, hybrid, and multicloud architectures
+				Improwised Technologies is a leading IT company founded with a desire to become a top software development company in scalable, data-intensive, and cloud-native applications in 2011
 				</p>
 				<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
 					<a
@@ -482,16 +717,15 @@
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
 				<blockquote class="text-lg [text-wrap:balance] md:text-xl">
-					As a marketing professional, I love using Improwised to streamline our marketing campaigns.
-					The automation features and data analytics help us make data-driven decisions and optimize
-					our business strategies.
+					As a marketing professional, I love using Improwised to streamline our marketing
+					campaigns. The automation features and data analytics help us make data-driven decisions
+					and optimize our business strategies.
 				</blockquote>
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
 							src="images/
 								photo-1607746882042-944635dfe10e_9mPL0.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Jane Smith"
 							loading="lazy"
@@ -519,7 +753,6 @@
 						<img
 							src="images/
 								photo-1639149888905-fb39731f2e6c_Z28s6qs.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Mike Johnson"
 							loading="lazy"
@@ -538,15 +771,14 @@
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
 				<blockquote class="text-lg [text-wrap:balance] md:text-xl">
-					Improwised has simplified our employee management processes. From onboarding to performance
-					evaluations, everything is now seamlessly organized in one place. It's made my job much
-					more manageable and enjoyable!
+					Improwised has simplified our employee management processes. From onboarding to
+					performance evaluations, everything is now seamlessly organized in one place. It's made my
+					job much more manageable and enjoyable!
 				</blockquote>
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
 							src="images/photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Emily Brown"
 							loading="lazy"
@@ -574,7 +806,6 @@
 						<img
 							src="images/
 								photo-1601455763557-db1bea8a9a5a_2gmhW0.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="David Lee"
 							loading="lazy"
@@ -602,7 +833,6 @@
 						<img
 							src="images/
 								photo-1544725176-7c40e5a71c5e_17087H.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Sarah Martinez"
 							loading="lazy"
@@ -635,7 +865,6 @@
 						<img
 							src="images/
 								photo-1624298357597-fd92dfbec01d_Z9mHXD.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="John Doe"
 							loading="lazy"
@@ -654,16 +883,15 @@
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
 				<blockquote class="text-lg [text-wrap:balance] md:text-xl">
-					As a marketing professional, I love using Improwised to streamline our marketing campaigns.
-					The automation features and data analytics help us make data-driven decisions and optimize
-					our business strategies.
+					As a marketing professional, I love using Improwised to streamline our marketing
+					campaigns. The automation features and data analytics help us make data-driven decisions
+					and optimize our business strategies.
 				</blockquote>
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
 							src="images/
 								photo-1607746882042-944635dfe10e_9mPL0.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Jane Smith"
 							loading="lazy"
@@ -691,7 +919,6 @@
 						<img
 							src="images/
 								photo-1639149888905-fb39731f2e6c_Z28s6qs.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Mike Johnson"
 							loading="lazy"
@@ -710,16 +937,15 @@
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
 				<blockquote class="text-lg [text-wrap:balance] md:text-xl">
-					Improwised has simplified our employee management processes. From onboarding to performance
-					evaluations, everything is now seamlessly organized in one place. It's made my job much
-					more manageable and enjoyable!
+					Improwised has simplified our employee management processes. From onboarding to
+					performance evaluations, everything is now seamlessly organized in one place. It's made my
+					job much more manageable and enjoyable!
 				</blockquote>
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
 							src="images/
 								photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Emily Brown"
 							loading="lazy"
@@ -747,7 +973,6 @@
 						<img
 							src="images/
 								photo-1601455763557-db1bea8a9a5a_2gmhW0.png"
-
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="David Lee"
 							loading="lazy"
@@ -830,8 +1055,8 @@
 				<h3 class="mt-2 text-xl font-medium lg:text-2xl"><span>Responsive Website</span></h3>
 				<p class="mt-2 text-slate-600 [text-wrap:balance]">
 					<span>
-						Improwised is a creative and modern mobile responsive website that helps you
-						create any kind of marketing websites or landing pages.
+						Improwised is a creative and modern mobile responsive website that helps you create any
+						kind of marketing websites or landing pages.
 					</span>
 				</p>
 			</div>
@@ -863,8 +1088,7 @@
 				<h3 class="mt-2 text-xl font-medium lg:text-2xl"><span>Next Level Company</span></h3>
 				<p class="mt-2 text-slate-600 [text-wrap:balance]">
 					<span>
-						Improwised is a new kind of website that integrates your favorite tools and
-						workflows.</span
+						Improwised is a new kind of website that integrates your favorite tools and workflows.</span
 					>
 				</p>
 			</div>
@@ -1105,7 +1329,7 @@
 				<p class="mt-2 leading-relaxed text-slate-500">
 					Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any
 					other npm packages.
-				</p>
+				</p>Pages
 			</div>
 		</div>
 		<div

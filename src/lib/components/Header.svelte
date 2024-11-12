@@ -8,16 +8,8 @@
 			data-astro-transition-scope="astro-o7bz76pi-1"
 		>
 			<div class="flex w-full items-center justify-between lg:w-auto">
-				<a
-					href="/"
-					class="focus-visible:shadow-outline-indigo -ml-2 flex items-center rounded-full px-2 text-lg transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
-					><span class="font-bold text-indigo-600 pr-1">Improwised</span><span class="text-slate-600"
-						>Technologies</span
-					>
-					<span
-						class="ml-1 mt-0.5 rounded-md bg-gray-200 px-2 py-1 text-[10px] font-bold uppercase leading-none text-slate-700"
-						>Pvt. Ltd.</span
-					>
+				<a href="/" class="-ml-2 flex items-center px-2 transition"
+					><img src="images/logo.png" class="logo" alt="logo" />
 				</a>
 				<div class="block lg:hidden">
 					<button id="astronav-menu" aria-label="Toggle Menu">
@@ -47,15 +39,31 @@
 					</button>
 				</div>
 			</div>
-			<nav class="astronav-items astronav-toggle mt-2 hidden w-full lg:mt-0 lg:flex lg:w-auto">
+			<nav class="astronav-items astronav-toggle  mt-2 hidden w-full lg:mt-0 lg:flex lg:w-auto">
 				<ul class="flex flex-col lg:flex-row lg:gap-3">
+					<li>
+						<a
+							href="/"
+							class="focus-visible:shadow-outline-indigo flex  rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+						>
+							Home
+						</a>
+					</li>
+					<li>
+						<a
+							href="/"
+							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+						>
+							About Us
+						</a>
+					</li>
 					<li class="relative isolate z-50">
 						<!-- svelte-ignore a11y_role_supports_aria_props_implicit -->
 						<menu class="astronav-dropdown group" aria-expanded="false">
 							<button
-								class="focus-visible:shadow-outline-indigo flex w-full items-center gap-1 rounded-full py-2 text-sm text-gray-600 transition hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:w-auto lg:px-3"
+								class="focus-visible:shadow-outline-indigo flex w-full items-center gap-1 rounded-full py-2 text-md text-slate-boldtransition hover:text-slate-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:w-auto lg:px-3"
 							>
-								<span>Pages</span>
+								<span>Services</span>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
@@ -80,89 +88,87 @@
 									>
 										<a
 											href="/"
-											class="focus-visible:shadow-outline-indigo rounded py-1 text-sm text-gray-600 hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+											class="focus-visible:shadow-outline-indigo rounded py-1 text-md text-slate-bold hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
 										>
-											Features
+
+										Platform Engineering
+
 										</a><a
 											href="/"
-											class="focus-visible:shadow-outline-indigo rounded py-1 text-sm text-gray-600 hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+											class="focus-visible:shadow-outline-indigo rounded py-1 text-md text-slate-bold hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
 										>
-											Integrations
+
+										Cloud Infrastructure Services
+
 										</a><a
 											href="/"
-											class="focus-visible:shadow-outline-indigo rounded py-1 text-sm text-gray-600 hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+											class="focus-visible:shadow-outline-indigo rounded py-1 text-md text-slate-bold hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
 										>
-											Blog Details
+
+										Product Modernization
+
 										</a><a
 											href="/"
-											class="focus-visible:shadow-outline-indigo rounded py-1 text-sm text-gray-600 hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+											class="focus-visible:shadow-outline-indigo rounded py-1 text-md text-slate-bold hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
 										>
-											404 Page
+
+                                Technology Consulting
+
 										</a>
 									</div>
 								</div>
 							</div>
 						</menu>
 					</li>
+
 					<li>
 						<a
 							href="/"
-							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-sm text-gray-600 transition hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
 						>
-							Pricing
+							Case Studies
 						</a>
 					</li>
 					<li>
 						<a
 							href="/"
-							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-sm text-gray-600 transition hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
 						>
-							About
+							Careers
 						</a>
 					</li>
 					<li>
 						<a
 							href="/"
-							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-sm text-gray-600 transition hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
 						>
-							Blog
+							Blogs
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a
 							href="/"
-							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-sm text-gray-600 transition hover:text-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
 						>
-							Contact
+							Contact Us
 						</a>
-					</li>
+					</li> -->
 				</ul>
 				<div class="mt-3 flex items-center gap-4 lg:hidden">
 					<a
 						href="/"
-						class="focus-visible:shadow-outline-indigo w-full rounded-full border-2 border-transparent bg-gray-100 px-5 py-2 text-center transition hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
-						>Log in
-					</a>
-					<a
-						href="/"
-						class="focus-visible:shadow-outline-indigo w-full rounded-full bg-indigo-600 px-5 py-2 text-center text-white transition hover:bg-indigo-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
-						>Try for Free
+						class="focus-visible:shadow-outline-indigo bg-grd-primary-600 w-full rounded-full px-5 py-2 text-center text-white transition hover:bg-indigo-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+						>Contact Us
 					</a>
 				</div>
 			</nav>
-
 			<div>
 				<div class="hidden items-center gap-4 lg:flex">
 					<a
 						href="/"
-						class="focus-visible:shadow-outline-indigo rounded-full px-2 py-1 text-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
-						>Log in</a
+						class="focus-visible:shadow-outline-indigo bg-grd-primary-600 group inline-flex items-center gap-px rounded-full px-4 py-2 text-center text-md text-white transition hover:bg-indigo-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
 					>
-					<a
-						href="/"
-						class="focus-visible:shadow-outline-indigo group inline-flex items-center gap-px rounded-full bg-indigo-600 px-4 py-2 text-center text-sm text-white transition hover:bg-indigo-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
-					>
-						<span>Try for Free</span>
+						<span>Contact Us</span>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
