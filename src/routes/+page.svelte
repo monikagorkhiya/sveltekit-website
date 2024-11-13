@@ -1,5 +1,42 @@
-<div class="overflow-x-clip main-banner-area">
-	<div class="section-team-hero build-in-animate relative overflow-hidden pt-5">
+<section class="ds-main-banner-area">
+	<div class="container-lg px-0">
+		<div class="flex flex-col items-center lg:flex-row">
+			<div class="w-full">
+				<div class="ds-banner-content">
+					<h2
+						class="
+
+					text-center text-3xl font-bold !leading-[1.30] [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
+					>
+						Empowering Developers,<br /><span class="text-theme">Accelerating Delivery</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- svelte-ignore a11y_consider_explicit_label -->
+	<div class="btn btn-down">
+		<a href="#section2"
+			><img
+				alt="button-img"
+				loading="lazy"
+				width="24"
+				height="40"
+				decoding="async"
+				data-nimg="1"
+				style="color:transparent"
+				src="images/scroll-icon.svg"
+			/></a
+		>
+	</div>
+	<div class="ds-banner-large-shape">
+		<!-- <div class="circle-ripple"></div> -->
+		<img src="images/large-shape.png" alt="Large Shape" />
+	</div>
+</section>
+
+<div class="overflow-x-clip transition duration-500 ease-in-out" id="section2">
+	<div class="section-team-hero build-in-animate relative overflow-hidden">
 		<div class="relative z-10 md:absolute md:bottom-0 md:left-0 md:right-0 md:top-0">
 			<div class="container-lg p-responsive">
 				<div class="mx-auto my-5 px-5 pt-[15%] text-center md:w-2/3 lg:w-5/6 xl:w-full">
@@ -20,12 +57,14 @@
 						<h2
 							class="
 
-							text-center  !leading-[1.30] text-3xl font-bold [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter "
+							text-center text-3xl font-bold !leading-[1.30] [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
 						>
-							Empowering Developers,<br /><span class="text-theme">Accelerating Delivery</span>
+							We are providing affective <span class="text-theme"> development strategies.</span>
 						</h2>
 
-						<p class="mx-auto pt-5 mb-4 text-xl text-slate-600 sm:w-10/12 md:w-2/3 lg:w-7/12 xl:w-2/3">
+						<p
+							class="mx-auto mb-4 pt-5 text-xl text-slate-600 sm:w-10/12 md:w-2/3 lg:w-7/12 xl:w-2/3"
+						>
 							Boost developer efficiency with platform engineering, delivering scalable internal
 							developer platforms across cloud-native, hybrid, and multicloud architectures.
 						</p>
@@ -87,15 +126,25 @@
 					d="M0,605.2c0,0,343.5,0,438.9,0S509,731.5,616.2,731.5s472.1,0,612.1,0c54.2,0,69.5,55.7,69.5,93.5v121.4"
 				></path>
 				<path id="path8" d="M578.1,243c-32-5-67.7-8.5-67.7-84.4c0-58.9,0-82.5,0-158.6"></path>
-
+				<defs>
+					<filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
+						<feFlood flood-color="#089e5a" result="flood" />
+						<!-- Darker green shadow color -->
+						<feComposite in="flood" in2="SourceAlpha" operator="in" />
+						<feGaussianBlur stdDeviation="1" />
+						<!-- Adjust blur for shadow spread -->
+						<feOffset dx="1" dy="1" result="offsetblur" />
+						<!-- Adjust shadow position -->
+					</filter>
+				</defs>
 				<circle
 					class="circle-dot"
 					id="dot1"
 					cx="0"
 					cy="0"
-					r="5"
+					r="8"
 					fill="#00c16a"
-					filter="url(#ellipse-shadow)"
+					filter="url(#drop-shadow)"
 				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path1" />
@@ -106,11 +155,11 @@
 					id="dot2"
 					cx="0"
 					cy="0"
-					r="5"
+					r="8"
 					fill="#00c16a"
-					filter="url(#shadow)"
+					filter="url(#drop-shadow)"
 				>
-					<animateMotion repeatCount="indefinite" dur="5s">
+					<animateMotion repeatCount="indefinite" dur="10s">
 						<mpath href="#path2" />
 					</animateMotion>
 				</circle>
@@ -119,9 +168,9 @@
 					id="dot3"
 					cx="0"
 					cy="0"
-					r="5"
+					r="8"
 					fill="#00c16a"
-					filter="url(#shadow)"
+					filter="url(#drop-shadow)"
 				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path3" />
@@ -132,30 +181,62 @@
 					id="dot4"
 					cx="0"
 					cy="0"
-					r="5"
+					r="8"
 					fill="#00c16a"
-					filter="url(#shadow)"
+					filter="url(#drop-shadow)"
 				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path4" />
 					</animateMotion>
 				</circle>
-				<circle class="circle-dot" id="dot5" cx="0" cy="0" r="5" fill="#00c16a">
+				<circle
+					class="circle-dot"
+					id="dot5"
+					cx="0"
+					cy="0"
+					r="8"
+					fill="#00c16a"
+					filter="url(#drop-shadow)"
+				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path5" />
 					</animateMotion>
 				</circle>
-				<circle class="circle-dot" id="dot6" cx="0" cy="0" r="5" fill="#00c16a">
+				<circle
+					class="circle-dot"
+					id="dot6"
+					cx="0"
+					cy="0"
+					r="8"
+					fill="#00c16a"
+					filter="url(#drop-shadow)"
+				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path6" />
 					</animateMotion>
 				</circle>
-				<circle class="circle-dot" id="dot7" cx="0" cy="0" r="5" fill="#00c16a">
+				<circle
+					class="circle-dot"
+					id="dot7"
+					cx="0"
+					cy="0"
+					r="8"
+					fill="#00c16a"
+					filter="url(#drop-shadow)"
+				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path7" />
 					</animateMotion>
 				</circle>
-				<circle class="circle-dot" id="dot8" cx="0" cy="0" r="5" fill="#00c16a">
+				<circle
+					class="circle-dot"
+					id="dot8"
+					cx="0"
+					cy="0"
+					r="8"
+					fill="#00c16a"
+					filter="url(#drop-shadow)"
+				>
 					<animateMotion repeatCount="indefinite" dur="5s">
 						<mpath href="#path8" />
 					</animateMotion>
@@ -239,7 +320,7 @@
 	</div>
 </div>
 
-<div class="overflow-x-clip">
+<div class="mt-5 overflow-x-clip">
 	<div class="mx-auto max-w-screen-xl px-5">
 		<main class="relative grid place-items-center lg:grid-cols-5">
 			<div
@@ -252,12 +333,14 @@
 				<h1
 					class="text-center text-3xl font-bold [text-wrap:balance] lg:text-start lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
 				>
-				Leading IT company
+					Leading IT company
 				</h1>
 				<p
 					class="mt-4 max-w-lg text-center text-lg text-slate-600 [text-wrap:balance] lg:text-start"
 				>
-				Improwised Technologies is a leading IT company founded with a desire to become a top software development company in scalable, data-intensive, and cloud-native applications in 2011
+					Improwised Technologies is a leading IT company founded with a desire to become a top
+					software development company in scalable, data-intensive, and cloud-native applications in
+					2011
 				</p>
 				<div class="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
 					<a
@@ -1329,7 +1412,8 @@
 				<p class="mt-2 leading-relaxed text-slate-500">
 					Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any
 					other npm packages.
-				</p>Pages
+				</p>
+				Pages
 			</div>
 		</div>
 		<div
