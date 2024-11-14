@@ -1,7 +1,7 @@
 (function () {
-  const scrollY = 140;
-  const defaultClass = "py-2 fixed border-transparent text-white";
-  const activeClass = "py-2 fixed bg-white/80 border-gray-200 backdrop-blur-lg sticky text-slate-bold";
+  const scrollY = 600;
+  const defaultClass = "py-2 border-transparent text-white";
+  const activeClass = "py-2 bg-white/80 border-gray-200 backdrop-blur-lg text-slate-bold";
 
   // @ts-nocheck
   let lastKnownScrollPosition = 0;
