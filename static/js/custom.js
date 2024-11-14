@@ -1,5 +1,5 @@
 (function () {
-  const scrollY = 600;
+  const scrollY = 140;
   const defaultClass = "py-2 border-transparent text-white";
   const activeClass = "py-2 bg-white/80 border-gray-200 backdrop-blur-lg sticky text-slate-bold";
 
@@ -218,4 +218,19 @@ document.querySelector('.btn-down a').addEventListener('click', function (event)
   target.scrollIntoView({ behavior: 'smooth' });
 
 
+});
+
+window.addEventListener('scroll', () => {
+  const section = document.querySelector('.sectionabout');
+  const dot = document.getElementById('scroll-dot');
+
+  const sectionTop = section.getBoundingClientRect().top;
+  const sectionHeight = section.getBoundingClientRect().height;
+  const windowHeight = window.innerHeight;
+
+  // Calculate the scroll progress within the section
+  const scrollProgress = Math.min(Math.max((windowHeight - sectionTop) / (windowHeight + sectionHeight), 0), 1);
+
+  // Set the dot's position based on scroll progress
+  dot.style.transform = `translateY(${scrollProgress * (sectionHeight - dot.offsetHeight)}px)`;
 });
