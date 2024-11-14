@@ -1513,6 +1513,7 @@ svg:not(:root) {
     z-index: 1;
     color: white;
     overflow: hidden;
+    margin-top: -106px;
     padding-top: 200px;
     padding-bottom: 200px;
 
