@@ -1,5 +1,5 @@
 <header
-	class="astronav-sticky-header headercustom text-white top-0 border-b z-20 transition-all py-5 border-transparent"
+	class="astronav-sticky-header fixed headercustom text-white top-0 border-b z-20 transition-all py-5 border-transparent"
 	data-astro-cid-eo7fz7pr=""
 >
 	<div class="mx-auto max-w-screen-xl px-5">

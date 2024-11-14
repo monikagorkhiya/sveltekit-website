@@ -1573,3 +1573,259 @@ svg:not(:root) {
     color: var(--theme-color);
     border-color: var(--theme-color);
 }
+
+#scroll-dot {
+    transition: top 0.3s ease;
+    background-color: #000;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.6);
+    /* White glow effect */
+}
+
+.sectionabout:before {
+    background-image: url('../images/vertical-dotted-line.svg');
+    background-repeat: no-repeat;
+    content: "";
+    height: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    width: 0.125rem;
+    z-index: 100;
+}
+
+#scroll-dot {
+    transition: transform 0.1s ease-out;
+}
+
+@media (min-width: 1100px) {
+    .sectionabout:before {
+        top: -54px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sectionabout:before {
+        top: 10%;
+    }
+}
+
+.card-custom {
+
+    background: radial-gradient(135px circle at var(--gradient-x, 15px) var(--gradient-y, 30px), rgba(180, 245, 215, 0.5) 0, transparent 100%);
+    border: 2px solid transparent;
+    border-image: radial-gradient(circle at var(--gradient-x, 15px) var(--gradient-y, 30px), rgba(0, 193, 106, 0.7), rgba(255, 255, 255, 0.5)) 1;
+    transition: border-image 0.3s ease;
+}
+
+.card-custom:hover {
+
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border-image: radial-gradient(circle at var(--gradient-x, 15px) var(--gradient-y, 30px), rgba(0, 193, 106, 0.9), transparent 100%) 1;
+
+}
+
+.card-service {
+
+
+    border: 2px solid transparent;
+    border-image: radial-gradient(circle at var(--gradient-x, 15px) var(--gradient-y, 30px), rgba(244, 250, 248, 0.7), rgba(255, 255, 255, 0.5)) 1;
+    transition: border-image 0.3s ease;
+}
+
+.card-service:hover {
+
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    ;
+    border-image: radial-gradient(circle at var(--gradient-x, 15px) var(--gradient-y, 30px), rgba(0, 193, 106, 0.9) 0, transparent 100%) 1;
+
+}
+
+.bg-theme-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(231 251 242 / var(--tw-bg-opacity))
+}
+
+.bg-image-custome {
+    background-image: url(../images/bg-image-custome.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css-1lrsr9i {
+    width: 400px;
+    height: 210px;
+    fill: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+.styles-module--mainImage--efcf9 {
+    height: 100%;
+    line-height: 0;
+    object-fit: cover;
+}
+
+.styles-module--right--745f8 {
+    flex: 1 1;
+}
+
+@media (min-width: 900px) {
+    .styles-module--tabletImage--b066c {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .styles-module--mobileImage--08760 {
+        display: none;
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee2 {
+    display: flex;
+    gap: 2rem;
+    /* Adjust gap as needed */
+    overflow: hidden;
+
+    animation: marquee2 15s linear infinite;
+}
+
+.css-1wzy7lw {
+    width: 100%;
+    position: relative;
+    height: 100px;
+}
+
+.css-6ps9ia {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.css-lyftwj {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+
+.css-6ps9ia::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to left, transparent,#ffffffbf);
+    z-index: 2;
+
+}
+/* Wrapper to contain the animated content */
+.css-lgz2p-wrapper {
+    overflow: hidden;
+    width: 100%; /* Set the desired width */
+    height: 100px;
+}
+
+/* Animated content container */
+.css-lgz2p {
+    display: flex;
+    gap: 4rem;
+    animation: scroll-animation 15s linear infinite;
+    width: fit-content;
+}
+
+/* Pause the animation on hover */
+.css-lgz2p:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes stroke-fill {
+    from {
+      stroke-dashoffset: 40;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+
+  @media screen and (min-width: 1440px) {
+    .integrate {
+        background-position: 50% 15%;
+    }
+}
+@supports (background:paint(houdini)) {
+    .circle:after {
+        animation: 5s rotate-1e17410a linear infinite;
+        background: linear-gradient(0deg, #ddd, #ddd, #ddd, #ddd, #000);
+    }
+}
+.circle:after {
+    --start: 0deg;
+    --end: 360deg;
+    --border-color: #000;
+    --highlight-color: #000;;
+    background: #ddd;
+    border-radius: 9999px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: -1px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+.hover\:text-theme:hover {
+    color: var(--theme-color)
+}
+
+/* Adjust for mobile devices */
+@media (max-width: 768px) {
+    .sectionabout:before {
+        background: none; /* Adjust as needed for better positioning */
+    }
+    #scroll-dot {
+    display: none;
+    }
+}
