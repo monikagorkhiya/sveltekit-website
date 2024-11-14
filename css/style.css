@@ -1775,143 +1775,6 @@ svg:not(:root) {
         transform: translateX(-50%);
     }
 }
-/* .css-lgz2p {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-animation: animation-1951kg6 15s linear infinite;
-    animation: animation-1951kg6 15s linear infinite;
-    animation-play-state: running;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    gap: 4rem;
-    height: 100px;
-}
-.css-lgz2p:hover {
-    animation-play-state: paused;
-}
-@keyframes animation-1951kg6 {
-
-
-    0% {
-        -webkit-transform: translateX(0);
-        -moz-transform: translateX(0);
-        -ms-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    100% {
-        -webkit-transform: translateX(-100%);
-        -moz-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-        transform: translateX(-100%);
-    }
-}
- */
-/*
-
- @media screen and (min-width: 768px) {
-    .lqd-iconbox-stack .iconbox-blue {
-        top: 30%;
-        left: 7%;
-    }
-}
-@media screen and (min-width: 768px) {
-    .lqd-iconbox-stack .iconbox-blue, .lqd-iconbox-stack .iconbox-green {
-        position: absolute;
-        top: 26%;
-        z-index: 2;
-    }
-}
-@media screen and (min-width: 768px) {
-    .iconbox {
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 150px;
-    }
-}
-.iconbox-blue {
-    background-color: #e6f2ed;
-}
-.iconbox-shadow {
-    -webkit-box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
-    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
-}
-.iconbox-round {
-    border-radius: 10px;
-}
-.iconbox-shadow, .iconbox-shadow-hover, .iconbox-bordered, .iconbox-filled {
-    padding: 25px 10%;
-    background-color: #fff;
-}
-.iconbox {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 2em;
-    position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    -webkit-transition: background 0.3s ease, -webkit-box-shadow 0.3s ease;
-    transition: background 0.3s ease, -webkit-box-shadow 0.3s ease;
-    transition: box-shadow 0.3s ease, background 0.3s ease;
-    transition: box-shadow 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.3s ease;
-}
-
-.iconbox .iconbox-fill-el, .iconbox .iconbox-icon-hover-bg {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: inherit;
-    -webkit-transition: opacity 0.3s;
-    transition: opacity 0.3s;
-    opacity: 0;
-    background-size: cover;
-}
-.bg-gradient-primary-tl {
-    background: -webkit-gradient(linear, right bottom, left top, from(var(--color-gradient-start)), to(var(--color-gradient-stop))) !important;
-    background: linear-gradient(to top left, var(--color-gradient-start) 0%, var(--color-gradient-stop) 100%) !important;
-}
-@media screen and (min-width: 768px) {
-    .lqd-iconbox-stack .iconbox-icon-container {
-        margin-bottom: 0;
-    }
-}
-.iconbox .iconbox-icon-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 0.5em;
-    border: 0 solid #F2F4F7;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 40px;
-    line-height: 1em;
-    color: var(--color-primary);
-    -webkit-transition: border 0.3s, -webkit-box-shadow 0.3s;
-    transition: border 0.3s, -webkit-box-shadow 0.3s;
-    transition: border 0.3s, box-shadow 0.3s;
-    transition: border 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
-} */
-
 
 @keyframes stroke-fill {
     from {
@@ -1955,4 +1818,14 @@ svg:not(:root) {
 
 .hover\:text-theme:hover {
     color: var(--theme-color)
+}
+
+/* Adjust for mobile devices */
+@media (max-width: 768px) {
+    .sectionabout:before {
+        background: none; /* Adjust as needed for better positioning */
+    }
+    #scroll-dot {
+    display: none;
+    }
 }
