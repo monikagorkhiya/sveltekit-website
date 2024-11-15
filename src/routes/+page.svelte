@@ -1416,9 +1416,9 @@
 			<div class="grid place-items-end">
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 
-				<div class="styles-module--right--745f8">
+				<div class="styles-module--right">
 					<img
-						class="styles-module--mainImage--efcf9"
+						class="styles-module--mainImage"
 						src="images/Performance.svg"
 						alt="Improwised"
 						loading="lazy"
