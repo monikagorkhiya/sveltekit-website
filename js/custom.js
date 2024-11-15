@@ -7,7 +7,7 @@
   let lastKnownScrollPosition = 0;
   let ticking = false;
 
-  const header = document.querySelector(".astronav-sticky-header");
+  const header = document.querySelector(".impronav-sticky-header");
   const logoDefault = document.querySelector(".logodefault");
   const logoSticky = document.querySelector(".logosticky");
 
@@ -47,7 +47,7 @@
 (function () {
   const closeOnClick = false;
 
-  ['DOMContentLoaded', 'astro:after-swap'].forEach((event) => {
+  ['DOMContentLoaded', 'impro:after-swap'].forEach((event) => {
     document.addEventListener(event, addListeners);
   });
 
@@ -59,22 +59,22 @@
 
   function addListeners() {
     // Clean up existing listeners
-    const oldMenuButton = document.getElementById('astronav-menu');
+    const oldMenuButton = document.getElementById('impronav-menu');
     if (oldMenuButton) {
       cloneAndReplace(oldMenuButton);
     }
 
-    const oldDropdownMenus = document.querySelectorAll('.astronav-dropdown');
+    const oldDropdownMenus = document.querySelectorAll('.impronav-dropdown');
     oldDropdownMenus.forEach((menu) => {
       cloneAndReplace(menu);
     });
 
     // Mobile nav toggle
-    const menuButton = document.getElementById('astronav-menu');
+    const menuButton = document.getElementById('impronav-menu');
     menuButton && menuButton.addEventListener('click', toggleMobileNav);
 
     // Dropdown menus
-    const dropdownMenus = document.querySelectorAll('.astronav-dropdown');
+    const dropdownMenus = document.querySelectorAll('.impronav-dropdown');
     dropdownMenus.forEach((menu) => {
       const button = menu.querySelector('button');
       button &&
@@ -83,7 +83,7 @@
         );
 
       // Handle Submenu Dropdowns
-      const dropDownSubmenus = menu.querySelectorAll('.astronav-dropdown-submenu');
+      const dropDownSubmenus = menu.querySelectorAll('.impronav-dropdown-submenu');
 
       dropDownSubmenus.forEach((submenu) => {
         const submenuButton = submenu.querySelector('button');
@@ -104,7 +104,7 @@
   }
 
   function toggleMobileNav() {
-    [...document.querySelectorAll('.astronav-toggle')].forEach((el) => {
+    [...document.querySelectorAll('.impronav-toggle')].forEach((el) => {
       el.classList.toggle('hidden');
     });
   }
@@ -126,8 +126,8 @@
 
     // Close sibling submenus at the same nesting level
     const siblingSubmenus = submenu
-      .closest('.astronav-dropdown')
-      .querySelectorAll('.astronav-dropdown-submenu');
+      .closest('.impronav-dropdown')
+      .querySelectorAll('.impronav-dropdown-submenu');
     Array.from(siblingSubmenus)
       .filter((el) => el !== submenu && !submenu.contains(el))
       .forEach(closeMenu);
@@ -136,13 +136,13 @@
   function closeAllDropdowns(event) {
     const dropdownMenus = document.querySelectorAll('.dropdown-toggle');
     const dropdownParent = document.querySelectorAll(
-      '.astronav-dropdown, .astronav-dropdown-submenu'
+      '.impronav-dropdown, .impronav-dropdown-submenu'
     );
     const isButtonInsideDropdown = [
       ...document.querySelectorAll(
-        `.astronav-dropdown button, .astronav-dropdown label, .astronav-dropdown input,
-  .astronav-dropdown-submenu button, .astronav-dropdown-submenu label, .astronav-dropdown-submenu input,
-  #astronav-menu`
+        `.impronav-dropdown button, .impronav-dropdown label, .impronav-dropdown input,
+  .impronav-dropdown-submenu button, .impronav-dropdown-submenu label, .impronav-dropdown-submenu input,
+  #impronav-menu`
       )
     ].some((button) => button.contains(event.target));
     if (!isButtonInsideDropdown) {
@@ -192,11 +192,11 @@
   }
 
   function handleCloseOnClick() {
-    const navMenuItems = document.querySelector('.astronav-items');
-    const navToggle = document.getElementById('astronav-menu');
+    const navMenuItems = document.querySelector('.impronav-items');
+    const navToggle = document.getElementById('impronav-menu');
     const navLink = navMenuItems && navMenuItems.querySelectorAll('a');
 
-    const MenuIcons = navToggle.querySelectorAll('.astronav-toggle');
+    const MenuIcons = navToggle.querySelectorAll('.impronav-toggle');
 
     navLink &&
       navLink.forEach((item) => {
