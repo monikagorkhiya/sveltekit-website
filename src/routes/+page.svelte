@@ -16,9 +16,7 @@
 			<div class="w-full">
 				<div class="ds-banner-content">
 					<h2
-						class="
-
-					text-center text-3xl font-bold !leading-[1.30] [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
+						class="text-center text-3xl font-bold !leading-[1.30] [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
 					>
 						Empowering Developers,<br /><span class="text-theme">Accelerating Delivery</span>
 					</h2>
@@ -42,23 +40,17 @@
 		>
 	</div>
 	<div class="ds-banner-large-shape">
-		<!-- <div class="circle-ripple"></div> -->
 		<img src="images/large-shape.png" alt="Large Shape" />
 	</div>
 </section>
 
 <div class="overflow-x-clip transition duration-500 ease-in-out" id="section2">
-	<div class="section-team-hero build-in-animate relative overflow-hidden">
+	<div class="section-hero build-in-animate relative overflow-hidden">
 		<div class="relative z-10 md:absolute md:bottom-0 md:left-0 md:right-0 md:top-0">
 			<div class="container-lg p-responsive">
 				<div class="mx-auto my-5 px-5 pt-[15%] text-center md:w-2/3 lg:w-5/6 xl:w-full">
 					<main class="relative place-items-center">
-						<!-- <div class="ds-banner-shape-3">
 
-							<img src="images/shape3.png" alt="imag1"/>
-						</div>
-
-						<div class="shape5"><img src="images/shape5.png" alt="image2"/></div> -->
 						<div
 							class="bg-gradient-radial from-blues-200 absolute right-0 top-0 -z-10 h-96 w-96 blur-2xl"
 						></div>
@@ -105,8 +97,8 @@
 			</div>
 		</div>
 
-		<div class="team-hero-artwork absolute top-0 hidden md:relative md:block">
-			<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<div class="hero-artwork absolute top-0 hidden md:relative md:block">
+
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -119,7 +111,7 @@
 				viewBox="0 0 2596 946.6"
 				style="enable-background:new 0 0 2596 946.6;height:auto; fill:none; stroke:#24292e; stroke-width:3px; opacity:0.1; left:50%; transform: translateX(-50%);"
 				xml:space="preserve"
-				class="team-hero-branches relative block"
+				class="hero-branches relative block"
 			>
 				<path
 					id="path1"
@@ -141,12 +133,12 @@
 				<defs>
 					<filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
 						<feFlood flood-color="#089e5a" result="flood" />
-						<!-- Darker green shadow color -->
+
 						<feComposite in="flood" in2="SourceAlpha" operator="in" />
 						<feGaussianBlur stdDeviation="1" />
-						<!-- Adjust blur for shadow spread -->
+
 						<feOffset dx="1" dy="1" result="offsetblur" />
-						<!-- Adjust shadow position -->
+
 					</filter>
 				</defs>
 				<circle
@@ -262,7 +254,7 @@
 						width="100"
 						height="100"
 						alt="Avatar of the user califa"
-						class="team-avatar team-avatar--lg icon rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg icon rounded-full shadow-md"
 						style="top: 3%; left: 4.25%;"
 					/>
 				</picture>
@@ -272,7 +264,7 @@
 						width="100"
 						height="100"
 						alt="Avatar of the user ohjoycelau"
-						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg rounded-full shadow-md"
 						style="top: 6%; left: 83.5%;"
 					/>
 				</picture>
@@ -282,7 +274,7 @@
 						width="100"
 						height="100"
 						alt="Avatar of the user lerebear"
-						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg rounded-full shadow-md"
 						style="top: 35%; left: 12%;"
 					/>
 				</picture>
@@ -292,7 +284,7 @@
 						width="200"
 						height="200"
 						alt="kubernetes"
-						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg rounded-full shadow-md"
 						style="top: 44%; right: 1%;"
 					/>
 				</picture>
@@ -303,7 +295,7 @@
 						width="100"
 						height="100"
 						alt="kubernetes"
-						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg rounded-full shadow-md"
 						style="top: 71%; left: 8%;"
 					/>
 				</picture>
@@ -313,7 +305,7 @@
 						width="100"
 						height="100"
 						alt="kubernetes"
-						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg rounded-full shadow-md"
 						style="top: 84%; left: 50%;"
 					/>
 				</picture>
@@ -323,7 +315,7 @@
 						width="100"
 						height="100"
 						alt="Avatar of the user benbalter"
-						class="team-avatar team-avatar--lg rounded-full shadow-md"
+						class="logo-avatar logo-avatar--lg rounded-full shadow-md"
 						style="top: 86%; left: 84%;"
 					/>
 				</picture>
@@ -331,7 +323,7 @@
 		</div>
 	</div>
 </div>
-<div class="bg-image-custome mt-5 overflow-x-clip py-10">
+<div class="bg-image-custom mt-5 overflow-x-clip py-10">
 	<div class="mx-auto max-w-screen-xl px-5">
 		<div class="sectionabout relative flex flex-col items-start px-8 py-12 lg:flex-row">
 			<!-- Left Side Content -->
@@ -472,9 +464,9 @@
 			class="md:motion-safe:animate-marquee flex w-auto min-w-full shrink-0 snap-x snap-mandatory flex-nowrap items-stretch gap-10 overflow-x-auto px-5 py-5"
 		>
 			<div
-				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
+				class="relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -504,7 +496,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="images/photo-1624298357597-fd92dfbec01d_Z9mHXD.png"
+							src="images/photo.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="John Doe"
 							loading="lazy"
@@ -522,7 +514,7 @@
 			<div
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -553,7 +545,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1607746882042-944635dfe10e_9mPL0.png"
+								photo2.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Jane Smith"
 							loading="lazy"
@@ -571,7 +563,7 @@
 			<div
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -602,7 +594,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1639149888905-fb39731f2e6c_Z28s6qs.png"
+								photo3.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Mike Johnson"
 							loading="lazy"
@@ -620,7 +612,7 @@
 			<div
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -650,7 +642,7 @@
 				<div class="mt-10 flex items-center gap-3">
 					<div class="shrink-0">
 						<img
-							src="images/photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
+							src="images/photo4.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Emily Brown"
 							loading="lazy"
@@ -668,7 +660,7 @@
 			<div
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -699,7 +691,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1601455763557-db1bea8a9a5a_2gmhW0.png"
+								photo5.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="David Lee"
 							loading="lazy"
@@ -717,7 +709,7 @@
 			<div
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -748,7 +740,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1544725176-7c40e5a71c5e_17087H.png"
+								photo6.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Sarah Martinez"
 							loading="lazy"
@@ -771,7 +763,7 @@
 			<div
 				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="css-1lrsr9i"
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 419" class="bg-shape-custom"
 					><g clip-path="url(#clip0_302_2944)"
 						><g
 							><g stroke="currentColor" stroke-opacity="0.1"
@@ -802,7 +794,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1624298357597-fd92dfbec01d_Z9mHXD.png"
+								photo.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="John Doe"
 							loading="lazy"
@@ -818,7 +810,7 @@
 				</div>
 			</div>
 			<div
-				class=" relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
+				class="relative flex w-[calc(100vw-5.75rem)] max-w-md shrink-0 snap-start snap-always scroll-m-5 flex-col justify-between rounded-2xl bg-gray-50/60 p-8 shadow ring-1 ring-gray-200/50 backdrop-blur-md transition-all first-of-type:scroll-m-10 hover:shadow-lg"
 			>
 				<blockquote class="text-lg [text-wrap:balance] md:text-xl">
 					As a marketing professional, I love using Improwised to streamline our marketing
@@ -829,7 +821,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1607746882042-944635dfe10e_9mPL0.png"
+								photo2.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Jane Smith"
 							loading="lazy"
@@ -856,7 +848,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1639149888905-fb39731f2e6c_Z28s6qs.png"
+								photo3.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Mike Johnson"
 							loading="lazy"
@@ -883,7 +875,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1586297135537-94bc9ba060aa_Z1yFbul.png"
+								photo4.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Emily Brown"
 							loading="lazy"
@@ -910,7 +902,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1601455763557-db1bea8a9a5a_2gmhW0.png"
+								photo5.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="David Lee"
 							loading="lazy"
@@ -937,7 +929,7 @@
 					<div class="shrink-0">
 						<img
 							src="images/
-								photo-1544725176-7c40e5a71c5e_17087H.png"
+								photo6.png"
 							class="h-12 w-12 rounded-full bg-slate-100 object-cover"
 							alt="Sarah Martinez"
 							loading="lazy"
@@ -967,12 +959,12 @@
 		</h2>
 	</div> -->
 	<h2 class="mb-2 text-center font-bold text-slate-500">Trusted by popular startups you know</h2>
-	<div class="css-1wzy7lw">
-		<div class="logosInfiniteScrollingWrapper css-6ps9ia">
-			<div class="logosInfiniteScrolling css-lgz2p">
-				<div class="css-lyftwj">
+	<div class="logosInfiniteSection">
+		<div class="logosInfiniteScrollingWrapper">
+			<div class="logosInfiniteScrolling">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -982,9 +974,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -994,9 +986,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1006,9 +998,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1018,9 +1010,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1030,9 +1022,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1042,9 +1034,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1054,9 +1046,9 @@
 						src="images/cloudinary.svg"
 					/>
 				</div>
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1067,9 +1059,9 @@
 					/>
 				</div>
 
-				<div class="css-lyftwj">
+				<div class="logosInfiniteScrollingImg">
 					<img
-						alt="Accenture"
+						alt="cloudinary"
 						loading="lazy"
 						width="150"
 						height="100"
@@ -1162,7 +1154,7 @@
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
 					src="images/
-						2.ldT67BXv_ZgktxF.png"
+						dashboard1.png"
 					alt="Fea</picture>ture image"
 					class="h-full w-full object-contain"
 					loading="lazy"
@@ -1214,7 +1206,7 @@
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
 					src="images/
-						2.ldT67BXv_ZgktxF.png"
+						dashboard1.png"
 					alt="Feature image"
 					class="h-full w-full object-contain"
 					loading="lazy"
@@ -1262,7 +1254,7 @@
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
 					src="images/
-						3.XiLsQFjx_Z1hzmJI.png"
+						dashboard2.png"
 					alt="Feature image"
 					class="h-full w-full object-contain"
 					loading="lazy"
@@ -1311,7 +1303,7 @@
 				<!-- svelte-ignore a11y_img_redundant_alt -->
 				<img
 					src="images/
-					integrations.HhfHOMQB.svg"
+					integrations.svg"
 					alt="Feature image"
 					class="h-full w-full object-contain"
 					loading="lazy"
@@ -1412,7 +1404,7 @@
 					</div>
 					<!-- svelte-ignore a11y_img_redundant_alt -->
 					<img
-						src="images/6.Ep0jo6kx_Z2s10bH.png"
+						src="images/dashboard3.png"
 						alt="Feature Image"
 						loading="lazy"
 						width="730"
