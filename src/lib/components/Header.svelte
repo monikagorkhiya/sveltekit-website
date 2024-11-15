@@ -1,11 +1,11 @@
 <header
-	class="astronav-sticky-header fixed headercustom text-white top-0 border-b z-20 transition-all py-5 border-transparent"
-	data-astro-cid-eo7fz7pr=""
+	class="impronav-sticky-header fixed headercustom text-white top-0 border-b z-20 transition-all py-5 border-transparent"
+	data-impro-cid-eo7fz7pr=""
 >
 	<div class="mx-auto max-w-screen-xl px-5">
 		<div
 			class="relative z-10 flex flex-col items-center justify-between lg:flex-row"
-			data-astro-transition-scope="astro-o7bz76pi-1"
+			data-impro-transition-scope="impro-o7bz76pi-1"
 		>
 			<div class="flex w-full items-center justify-between lg:w-auto">
 				<a href="/" class="-ml-2 flex items-center px-2 transition logodefault transition"
@@ -15,7 +15,7 @@
 					><img src="images/logo.png" class="logo" alt="logo" />
 				</a>
 				<div class="block lg:hidden">
-					<button id="astronav-menu" aria-label="Toggle Menu">
+					<button id="impronav-menu" aria-label="Toggle Menu">
 						<svg
 							fill="currentColor"
 							class="h-4 w-4 text-white-800"
@@ -26,14 +26,14 @@
 						>
 							<title>Toggle Menu</title>
 							<path
-								class="astronav-close-icon astronav-toggle hidden"
+								class="impronav-close-icon impronav-toggle hidden"
 								fill-rule="evenodd"
 								clip-rule="evenodd"
 								d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z"
 							>
 							</path>
 							<path
-								class="astronav-open-icon astronav-toggle"
+								class="impronav-open-icon impronav-toggle"
 								fill-rule="evenodd"
 								d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
 							>
@@ -42,7 +42,7 @@
 					</button>
 				</div>
 			</div>
-			<nav class="astronav-items astronav-toggle  mt-2 hidden w-full lg:mt-0 lg:flex lg:w-auto">
+			<nav class="impronav-items impronav-toggle  mt-2 hidden w-full lg:mt-0 lg:flex lg:w-auto">
 				<ul class="flex flex-col lg:flex-row lg:gap-3">
 					<li>
 						<a
@@ -62,7 +62,7 @@
 					</li>
 					<li class="relative isolate z-50">
 						<!-- svelte-ignore a11y_role_supports_aria_props_implicit -->
-						<menu class="astronav-dropdown group" aria-expanded="false">
+						<menu class="impronav-dropdown group" aria-expanded="false">
 							<button
 								class="focus-visible:shadow-outline-indigo flex w-full items-center gap-1 rounded-full py-2 text-md text-slate-bold transition hover:text-slate-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:w-auto lg:px-3"
 							>
@@ -82,7 +82,7 @@
 									></path>
 								</svg>
 							</button>
-							<div class="astronav-dropdown dropdown-toggle hidden" aria-expanded="false">
+							<div class="impronav-dropdown dropdown-toggle hidden" aria-expanded="false">
 								<div
 									class="z-50 w-full origin-top-left border-l border-slate-200 lg:absolute lg:left-0 lg:w-48 lg:border-0"
 								>
@@ -148,14 +148,7 @@
 							Blogs
 						</a>
 					</li>
-					<!-- <li>
-						<a
-							href="/"
-							class="focus-visible:shadow-outline-indigo flex rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
-						>
-							Contact Us
-						</a>
-					</li> -->
+
 				</ul>
 				<div class="mt-3 flex items-center gap-4 lg:hidden">
 					<a
