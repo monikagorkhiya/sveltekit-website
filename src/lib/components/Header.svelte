@@ -1,5 +1,5 @@
 <header
-	class="impronav-sticky-header fixed headercustom text-white top-0 border-b z-20 transition-all py-5 border-transparent"
+	class="impronav-sticky-header sticky top-0 border-b z-20 transition-all py-5 border-transparent"
 	data-impro-cid-eo7fz7pr=""
 >
 	<div class="mx-auto max-w-screen-xl px-5">
@@ -8,10 +8,8 @@
 			data-impro-transition-scope="impro-o7bz76pi-1"
 		>
 			<div class="flex w-full items-center justify-between lg:w-auto">
+
 				<a href="/" class="-ml-2 flex items-center px-2 transition logodefault transition"
-					><img src="images/logo-white.png" class="logo" alt="logo" />
-				</a>
-				<a href="/" class="-ml-2 flex items-center px-2 transition logosticky transition" style="display: none;"
 					><img src="images/logo.png" class="logo" alt="logo" />
 				</a>
 				<div class="block lg:hidden">
@@ -47,7 +45,7 @@
 					<li>
 						<a
 							href="/"
-							class="focus-visible:shadow-outline-indigo flex  rounded-full py-2 text-md text-slate-bold transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
+							class="active focus-visible:shadow-outline-indigo flex  rounded-full py-2 text-md text-slate-bold  transition hover:text-theme-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 lg:px-3"
 						>
 							Home
 						</a>
@@ -153,7 +151,7 @@
 				<div class="mt-3 flex items-center gap-4 lg:hidden">
 					<a
 						href="/"
-						class="contactusbtn focus-visible:shadow-outline-indigo border group w-full rounded-full px-5 py-2 text-center  transition hover:bg-indigo-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+						class="contactusbtn focus-visible:shadow-outline-theme border-2 group w-full rounded-full px-5 py-2 text-center  transition hover:bg-theme-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-theme focus-visible:ring-offset-2"
 						>Contact Us
 					</a>
 				</div>
@@ -162,7 +160,7 @@
 				<div class="hidden items-center gap-4 lg:flex">
 					<a
 						href="/"
-						class="contactusbtn focus-visible:shadow-outline-indigo group inline-flex items-center gap-px rounded-full border  px-4 py-2 text-center text-md transition hover:bg-indigo-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+						class="contactusbtn focus-visible:shadow-outline-theme group inline-flex items-center gap-px rounded-full border-2  px-4 py-2 text-center text-md transition hover:bg-theme focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-theme focus-visible:ring-offset-2"
 					>
 						<span>Contact Us</span>
 						<svg
