@@ -10,40 +10,6 @@
 	}
 </script>
 
-<section class="ds-main-banner-area">
-	<div class="container-lg px-0">
-		<div class="flex flex-col items-center lg:flex-row">
-			<div class="w-full">
-				<div class="ds-banner-content">
-					<h2
-						class="text-center text-3xl font-bold !leading-[1.30] [text-wrap:balance] lg:text-center lg:text-4xl lg:tracking-tight xl:text-6xl xl:tracking-tighter"
-					>
-						Empowering Developers,<br /><span class="text-theme">Accelerating Delivery</span>
-					</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<div class="btn btn-down">
-		<a href="#section2"
-			><img
-				alt="button-img"
-				loading="lazy"
-				width="24"
-				height="40"
-				decoding="async"
-				data-nimg="1"
-				style="color:transparent"
-				src="images/scroll-icon.svg"
-			/></a
-		>
-	</div>
-	<div class="ds-banner-large-shape">
-		<img src="images/large-shape.png" alt="Large Shape" />
-	</div>
-</section>
-
 <div class="overflow-x-clip transition duration-500 ease-in-out" id="section2">
 	<div class="section-hero build-in-animate relative overflow-hidden">
 		<div class="relative z-10 md:absolute md:bottom-0 md:left-0 md:right-0 md:top-0">
@@ -323,7 +289,7 @@
 		</div>
 	</div>
 </div>
-<div class="bg-image-custom mt-5 overflow-x-clip py-10">
+<div class="bg-image-custom mt-1 overflow-x-clip py-10">
 	<div class="mx-auto max-w-screen-xl px-5">
 		<div class="sectionabout relative flex flex-col items-start px-8 py-12 lg:flex-row">
 			<!-- Left Side Content -->

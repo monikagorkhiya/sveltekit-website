@@ -1,15 +1,15 @@
 (function () {
-  const scrollY = 600;
-  const defaultClass = "py-2 border-transparent text-white";
+  const scrollY = 140;
+  const defaultClass = "py-2 border-transparent";
   const activeClass = "py-2 bg-white/80 border-gray-200 backdrop-blur-lg text-slate-bold";
+
 
   // @ts-nocheck
   let lastKnownScrollPosition = 0;
   let ticking = false;
 
   const header = document.querySelector(".impronav-sticky-header");
-  const logoDefault = document.querySelector(".logodefault");
-  const logoSticky = document.querySelector(".logosticky");
+
 
   // Define two different scroll positions
   const addScrollY = Math.max(scrollY, 100); // Scroll position to add active class
@@ -20,14 +20,12 @@
       header.classList.remove(...defaultClass.split(" "));
       header.classList.add("is-active", ...activeClass.split(" "));
       header.setAttribute("active", "");
-      logoSticky.style.display = "block";
-      logoDefault.style.display = "none";
+
     } else if (scrollPos < removeScrollY) {
       header.classList.remove("is-active", ...activeClass.split(" "));
       header.classList.add(...defaultClass.split(" "));
       header.removeAttribute("active");
-      logoSticky.style.display = "none";
-      logoDefault.style.display = "block";
+
     }
   }
 
@@ -209,16 +207,6 @@
       });
   }
 })();
-
-document.querySelector('.btn-down a').addEventListener('click', function (event) {
-  event.preventDefault();
-  const target = document.querySelector('#section2');
-
-  // Smooth scroll to #section2
-  target.scrollIntoView({ behavior: 'smooth' });
-
-
-});
 
 window.addEventListener('scroll', () => {
   const section = document.querySelector('.sectionabout');

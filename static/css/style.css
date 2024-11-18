@@ -1153,9 +1153,7 @@ details>summary.list-none::marker {
 
 .gradient-button:hover {
     background: linear-gradient(90deg, var(--theme-green-color), var(--theme-color));
-
     color: white;
-
 }
 
 .gradient-border-button>* {
@@ -1243,46 +1241,25 @@ svg:not(:root) {
     width: 100%;
 }
 .impronav-sticky-header .contactusbtn {
-    color: white;
-    border-color: white;
-}
-
-
-.impronav-sticky-header.is-active .contactusbtn {
     color: var(--theme-color);
     border-color: var(--theme-color);
 }
+.impronav-sticky-header .contactusbtn:hover {
+    background-color: var(--theme-color);
+    color:white;
+    border-color:transparent;
+}
+
 
 .impronav-sticky-header[data-impro-cid-eo7fz7pr] {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     will-change: transform
 }
+.impronav-items a.active{
+    color: var(--theme-color);
+}
 /*Banner section*/
-.ds-main-banner-area {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url('../images/banner.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-    color: white;
-    overflow: hidden;
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-
-}
-
-.ds-banner-large-shape {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
 
 .circle-ripple {
     position: absolute;
@@ -1402,7 +1379,7 @@ svg:not(:root) {
     background-image: url('../images/vertical-dotted-line.svg');
     background-repeat: no-repeat;
     content: "";
-    height: 140%;
+    height: 128%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
