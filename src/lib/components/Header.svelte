@@ -10,7 +10,7 @@
 			<div class="flex w-full items-center justify-between lg:w-auto">
 
 				<a href="/" class="-ml-2 flex items-center px-2 transition logodefault transition"
-					><img src="images/logo.png" class="logo" alt="logo" />
+					><img src="/images/logo.png" class="logo" alt="logo" />
 				</a>
 				<div class="block lg:hidden">
 					<button id="impronav-menu" aria-label="Toggle Menu">
