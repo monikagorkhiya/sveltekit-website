@@ -1,3 +1,8 @@
+<script>
+	import { PUBLIC_BASE_URL } from "$env/static/public";
+
+    export let baseUrl = PUBLIC_BASE_URL
+</script>
 <header
 	class="impronav-sticky-header sticky top-0 border-b z-20 transition-all py-5 border-transparent"
 	data-impro-cid-eo7fz7pr=""
@@ -10,7 +15,7 @@
 			<div class="flex w-full items-center justify-between lg:w-auto">
 
 				<a href="/" class="-ml-2 flex items-center px-2 transition logodefault transition"
-					><img src="/images/logo.png" class="logo" alt="logo" />
+					><img src={baseUrl+"/images/logo.png"} class="logo" alt="logo" />
 				</a>
 				<div class="block lg:hidden">
 					<button id="impronav-menu" aria-label="Toggle Menu">
